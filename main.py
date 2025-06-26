@@ -1,4 +1,12 @@
+#Manipulação de dados
 import pandas as pd
+import numpy as np
+
+#Visualização de dados
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
+
 
 # Lendo o arquivo
 try:
@@ -11,3 +19,5 @@ print("Primeiras linhas do DataFrame:")
 print(df.head(2))
 
 print(df.info())
+
+print(df.shape)
